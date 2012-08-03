@@ -1,0 +1,17 @@
+body *{font-family:Arial;}
+#cadastroEventos{width:400px;margin:40px auto 0px auto;}
+#cadastroEventos{border-radius:4px;box-shadow:3px 3px 5px #CCC;}
+#cadastroEventos legend{font-weight:bold;color:#557;}
+.formField input#nome, #descricao, #visibilidade {width:250px;max-width:250px;min-width:250px;padding:4px;}
+.formField textarea#descricao {min-height:70px;max-height:70px;}
+.formField * {vertical-align: top;}
+.formField label{color:#557;float:left;display: block;width:100%;font-size: 12px;padding-left: 2px;}
+.flash-message-success {margin:0px auto 0px auto;color:#050;font-weight:bold;box-shadow:3px 3px 5px #555;margin-bottom:20px;padding:5px;text-align:center;background-color: #0D8;width:417px;border:1px solid #070;}
+.flash-message-warning {margin:0px auto 0px auto;color:#330;font-weight:bold;box-shadow:3px 3px 5px #555;margin-bottom:20px;padding:5px;text-align:center;background-color: #DD5;width:417px;border:1px solid #070;}
+.flash-message-error {margin:0px auto 0px auto;color:#FFF;font-weight:bold;box-shadow:3px 3px 5px #555;margin-bottom:20px;padding:5px;text-align:center;background-color: #E43;width:417px;border:1px solid #F00;}
+.button{color:#005;background-color: #EEF;border-radius:3px;border:1px solid #559;}
+.button:hover{border:1px solid #FF9900;border-radius:3px;background-color: #FFFFDD;box-shadow:3px 3px 4px #FFFFDD;}
+.button:active{color:#CA4;}
+.eventDataTitle, .eventDescriptionTitle, .eventNameTitle{color:#005;border-bottom: 1px solid #005;}
+#events{border: 1px solid #CCC;padding:4px 15px 15px 15px;margin: 0px auto 0px auto;}
+#eventData{border-left: 1px solid;}
